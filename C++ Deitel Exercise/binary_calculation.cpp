@@ -12,7 +12,6 @@ int main(){
          while (number>=1){
          	
          	 number = number/10;
-         	 
 			 counter = counter + 1;
 		 }
     
@@ -24,9 +23,7 @@ int main(){
          	 digit = number_m % 10;
          	 number_m -= digit;
          	 number_m /= 10;
-         	 
          	 cout << "digits:"<<digit<<endl;
-         	 
          	 sum = sum + (digit*(pow(2,i)));
         }
           
