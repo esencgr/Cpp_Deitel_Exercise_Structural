@@ -10,8 +10,8 @@ cout << endl;
     
     while (number>=1){
          	
-          number = number/10;
-		counter = counter + 1;
+        number = number/10;
+		 counter = counter + 1;
 	}
     
 cout<< "the number is include "<< counter << " digit"<<endl;
