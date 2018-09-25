@@ -5,9 +5,9 @@
 using namespace std;
 int main(){
     
-    float credit_new,credit,balance;
-    int no;
-    srand(time(NULL));
+float credit_new,credit,balance;
+int no;
+srand(time(NULL));
     for (int i=0 ;i<3 ; i++){
     	
 		no = i;

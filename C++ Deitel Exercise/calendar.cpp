@@ -2,10 +2,10 @@
 #include<math.h>
 using namespace std;
 int main(){
-	int year, month, day;
+int year, month, day;
 	
-	cout << "enter year (-1 to exit):";
-    cin >> year;
+cout << "enter year (-1 to exit):";
+cin >> year;
     
 	while(year != -1){
 

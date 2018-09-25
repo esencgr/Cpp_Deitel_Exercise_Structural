@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-	float yol=0,performans=0,galon=0,toplam=0; //performans=kilometre/galon
-	int sayac=0;
+float yol=0,performans=0,galon=0,toplam=0; //performans=kilometre/galon
+int sayac=0;
 	
 	while (1){
 		
@@ -27,6 +27,6 @@ int main(){
 				
 	}
 
- 	    cout << "ortalama performans:"<< toplam/sayac;
+cout << "ortalama performans:"<< toplam/sayac;
  }
 
