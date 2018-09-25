@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    int boyut;
-    cout<< "lutfen boyut belirten bir tek sayi giriniz" <<endl;
-    cin>>boyut;
+int boyut;
+cout<< "lutfen boyut belirten bir tek sayi giriniz" <<endl;
+cin>>boyut;
     
 	for (int i = 0; i < boyut; i++){
     	

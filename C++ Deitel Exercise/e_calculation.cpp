@@ -4,31 +4,28 @@ using namespace std;
 
 int main(){
 
-	int number;
-	float e = 0.0 , product = 1.0;
-	cout << " enter a number: ";
-	cin >> number ;
-	cout <<"e= ";
+int number;
+float e = 0.0 , product = 1.0;
+cout << " enter a number: ";	
+cin >> number ;
+cout <<"e= ";
 	        
-        for (int i = 0; i <= number ; i++){
+    for (int i = 0; i <= number ; i++){
         	
-        	if(i == 0)
-        	product = 1;
+        if(i == 0)
+        product = 1;
         	
-        	else 
-        	product = product * i;
-                        
-        	cout << "1/" << i << "! ";
-            e = e + (1/product);
+        else 
+        product = product * i;
+        cout << "1/" << i << "! ";
+        e = e + (1/product);
             
-			if (i == number)
-            break;
+		if (i == number)
+        break;
             
-			else
-			cout << " + "; 
-	
-   	
-		}
-		    cout << "=";
-		    cout << float(e);
+		else
+		cout << " + "; 
+	}
+cout << "=";
+cout << float(e);
 }

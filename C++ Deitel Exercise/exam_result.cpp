@@ -5,12 +5,12 @@ float avarage(float sum , float totals){
 	float av;
 	return 	av = sum / totals;
 }
+
 int main(){
-	int student=1, totals , point , succesful=0 , unsuccesful=0 ,sum=0;
-	
+int student=1, totals , point , succesful=0 , unsuccesful=0 ,sum=0;
+
 	cout << "available of class:";
 	cin >> totals;
-	
 	cout <<"-------------------"<< endl;
 	
 	while (student <= totals){
@@ -24,7 +24,7 @@ int main(){
 		student += 1;
 		sum += point;	
 	}
-	    cout<< "succesful student number:"<< succesful << endl;
-	    cout<< "unsuccesful student number:"<< unsuccesful<< endl;
-		cout<< "avarage of class:"<< avarage(sum,totals);
+cout<< "succesful student number:"<< succesful << endl;
+cout<< "unsuccesful student number:"<< unsuccesful<< endl;
+cout<< "avarage of class:"<< avarage(sum,totals);
 }

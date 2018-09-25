@@ -1,10 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    
-    float anapara,faiz_orani,gun,faiz;
+
+float anapara,faiz_orani,gun,faiz;
 	 
-    
     while (1){
     	
     	cout << "anapara(cikis-1):";
