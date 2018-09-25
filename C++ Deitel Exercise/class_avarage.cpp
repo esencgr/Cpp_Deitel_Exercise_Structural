@@ -22,21 +22,18 @@ int main(){
 #include<iostream>
 using namespace std;
 int main(){
-	float avarage;
-	float sum = 0,count = 0;
-	int point;
+float avarage;
+float sum = 0,count = 0;
+int point;
 
 	while (point != -1){
-    
-      cout << "exam result(-1 exit):";
-	  cin >> point;
+    cout << "exam result(-1 exit):";
+	cin >> point;
 	    if(point == -1)
 	    break;
-	  sum += point;
-      count++;
-	} 
-     
+	sum += point;
+    count++;
+	}  
 cout<< "avarage:"<< (float)(sum/count);
-return 0;
-	
+return 0;	
 }
