@@ -36,8 +36,7 @@ int main(){
       count++;
 	} 
      
-    	
-	cout<< "avarage:"<< (float)(sum/count);
-	return 0;
+cout<< "avarage:"<< (float)(sum/count);
+return 0;
 	
 }

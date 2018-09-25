@@ -21,14 +21,8 @@ srand(time(NULL));
 	    cout <<" new credit "<< " - " << (float)credit_new<<endl;
 	  
 	       if(balance>(credit_new))
-		   
-		         cout << "credit exceeded !!!!!" << endl;
-	    
-		cout <<"---------------------------"<< endl;
-	
+		     cout << "credit exceeded !!!!!" << endl;
+	         cout <<"---------------------------"<< endl;
 	}
-
-
-
 }
 

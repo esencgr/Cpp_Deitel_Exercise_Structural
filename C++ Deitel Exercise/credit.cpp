@@ -2,16 +2,16 @@
 using namespace std;
 int main(){
 	
-	int hesap; 
-    float ilk_bakiye,harcama,kredi,kredi_limit,son_bakiye;
+int hesap; 
+float ilk_bakiye,harcama,kredi,kredi_limit,son_bakiye;
 	 
 	while (1){
 		
-		cout<< "hesap no(cikis -1):";
+	    cout<< "hesap no(cikis -1):";
 		cin >> hesap;
 
-		     if(hesap == -1)
-		     break;
+		    if(hesap == -1)
+		    break;
 		
 		cout << "ilk bakiye:";
 		cin  >> ilk_bakiye;

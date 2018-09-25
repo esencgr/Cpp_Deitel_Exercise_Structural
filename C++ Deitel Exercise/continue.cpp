@@ -11,10 +11,8 @@ int x;
     	
         if ( x == 5 )
         x++;
-        
 		cout << x << ' ';
     }
-
-    cout << "\nBroke out of loop at 5" <<  endl;
-    return 0;
+cout << "\nBroke out of loop at 5" <<  endl;
+return 0;
 }
