@@ -27,12 +27,12 @@ float sum = 0,count = 0;
 int point;
 
 	while (point != -1){
-    cout << "exam result(-1 exit):";
-	cin >> point;
-	    if(point == -1)
-	    break;
-	sum += point;
-    count++;
+        cout << "exam result(-1 exit):";
+	    cin >> point;
+	        if(point == -1)
+	        break;
+	    sum += point;
+        count++;
 	}  
 cout<< "avarage:"<< (float)(sum/count);
 return 0;	
