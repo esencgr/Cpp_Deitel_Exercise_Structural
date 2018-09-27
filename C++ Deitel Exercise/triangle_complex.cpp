@@ -10,17 +10,17 @@ first = hipo;
     while (counter < 2){
         cin >> side;
         if (side > hipo){
-			middle = hipo;
-			hipo = side;    
+		     middle = hipo;
+			 hipo = side;    
 		}
 		else if (side > middle) 
-			middle = side;
+			 middle = side;
 			 
         if (first != hipo  &&  first != middle)
-		    small = first;
+		     small = first;
 		    
 		else if(side <= middle)
-		    small = side;
+		     small = side;
 	counter++;
 	}   
 cout << " hipo:"<< hipo << endl;
