@@ -1,3 +1,4 @@
+
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -11,8 +12,8 @@ int count=0;
 	
 	while (value!=9999){
 		
-		sum += value;
-		count++;
+	    sum += value;
+	    count++;
 	    cout << "enter integers (exit 9999):";
 	    cin >> value ;
 	
