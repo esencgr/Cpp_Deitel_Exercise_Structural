@@ -41,5 +41,5 @@ float ilk_bakiye,harcama,kredi,kredi_limit,son_bakiye;
 	}
 }
 
-i
+
 

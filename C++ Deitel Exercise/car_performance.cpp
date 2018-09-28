@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 float yol=0,performans=0,galon=0,toplam=0; //performans=kilometre/galon
 int sayac=0;
-	
+	 
 	while (1){
 		
 		cout << "kac galon harcandi (cikis -1):";
@@ -21,12 +21,10 @@ int sayac=0;
 		cout << endl;
 		cout <<endl;
 		
-	    toplam += performans;
+	        toplam += performans;
 		sayac++;
 
-				
-	}
+        }
 
 cout << "ortalama performans:"<< toplam/sayac;
- }
-
+}

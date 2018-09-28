@@ -13,7 +13,7 @@ cin>> number;
         number = number % 1000;
         digit = (digit+7) % 10;   
 		 
-	    if (i==3)
+	        if (i==3)
 		    digit3 = digit;
 		if (i==2)
 		    digit4 = digit;
@@ -21,7 +21,7 @@ cin>> number;
 		    digit1 = digit;
 		if (i==0)
 		    digit2 = digit;
-	}   
+    }   
 cout << "the number with cyrptoned:";
 cout<< digit1 << digit2 << digit3 << digit4;
 	

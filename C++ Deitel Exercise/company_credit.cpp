@@ -13,14 +13,15 @@ srand(time(NULL));
     	balance = 1+(rand()%10000);
     	credit = 1+(rand()%10000);
     	credit_new = credit/2;
-		cout <<" no:"<< i <<endl;
+	cout <<" no:"<< i <<endl;
     	cout <<" balance " << " - " << (float)balance<<endl;
     	cout <<" credit " << " - " << (float)credit<<endl;
-	    cout <<" new credit "<< " - " << (float)credit_new<<endl;
-	    
-		if(balance>(credit_new))
-		    cout << "credit exceeded !!!!!" << endl;
-	        cout <<"---------------------------"<< endl;
+	cout <<" new credit "<< " - " << (float)credit_new<<endl;
+
+	      if(balance>(credit_new))
+	      cout << "credit exceeded !!!!!" << endl;
+
+        cout <<"---------------------------"<< endl;
 	}
 }
 
