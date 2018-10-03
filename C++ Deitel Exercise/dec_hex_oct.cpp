@@ -5,9 +5,10 @@ int main(){
 	
 cout << "Decimal\t\tBinary\t\tOctal\tHexadecimal\n";
 	
-	for ( int loop = 1; loop <= 256; ++loop ) { 
+    for ( int loop = 1; loop <= 256; ++loop ) { 
 	 
 	cout << dec << loop << "\t\t";
+
     // Output binary number
         int number = loop;
         cout << ( number == 256 ? '1' : '0' );
@@ -23,8 +24,6 @@ cout << "Decimal\t\tBinary\t\tOctal\tHexadecimal\n";
     cout << '\t' << oct << loop << '\t' << hex << loop << endl;
     }
 
- return 0;
- 
-	 
+ return 0;	 
 	 
 }

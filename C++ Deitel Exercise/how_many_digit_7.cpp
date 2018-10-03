@@ -11,7 +11,7 @@ cout << endl;
     while (number>1){
         number = number/10;
         counter = counter+1;
-	}
+    }
     
 cout<< "the number is include " << counter << " digit" << endl;
          
@@ -21,7 +21,7 @@ cout<< "the number is include " << counter << " digit" << endl;
         number_m -= digit;
         number_m /= 10;
          	 
-		if (digit == 7)
+	      if (digit == 7)
 		counter_2 += 1;
 					 
     } 

@@ -11,7 +11,7 @@ temp = number;
 	while(number > 0){
 		
 	    product = product * (number);
-		number--;	
+            number--;	
 			
 	}
 	

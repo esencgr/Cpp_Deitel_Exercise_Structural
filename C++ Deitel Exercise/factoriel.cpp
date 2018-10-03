@@ -9,8 +9,8 @@ cout << "enter number for factoriel:";
 cin >> number ;
 temp = number;
 
-for(i=number-1 ; i>=1 ;i--)
-	number = number * (i);
+    for(i=number-1 ; i>=1 ;i--)
+       number = number * (i);
 
 cout << temp << "!=" <<number;
 }

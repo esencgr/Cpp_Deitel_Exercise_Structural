@@ -2,6 +2,7 @@
 #include<math.h>
 using namespace std;
 int main(){
+
 int product=1,i;
 	
 	for (int i = 1; i <= 15; i+=2){

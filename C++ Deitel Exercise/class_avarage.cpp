@@ -10,11 +10,11 @@ int main(){
 	count++;
         cout << "exam result(-1 exit):";
 
-	 cin>point;
+	cin>point;
  
-	 while (point!=-1);   
+     }while (point!=-1);   
      
-    count-=1;
+        count-=1;
 	
 	cout<< "avarage:"<< (float)(sum/count);
 	return 0;

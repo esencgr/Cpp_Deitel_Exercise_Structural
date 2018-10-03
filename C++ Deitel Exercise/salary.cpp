@@ -6,11 +6,11 @@ float satis,maas;
     	cout << "satis tutari(cikis-1):";
     	cin >> satis;
      		
-    	if (satis == -1)
-    	break;
+    	    if (satis == -1)
+    	       break;
     	
     	maas = 200 + (satis*9/100);
     	cout << "maas:"<< (float)maas << "$" <<endl;	
-	}
+    }
 }
 

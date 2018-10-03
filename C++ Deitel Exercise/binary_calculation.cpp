@@ -2,6 +2,7 @@
 #include <math.h>
 using namespace std;
 int main(){
+
 int number, counter=0,number_m,digit=0,sum=0;
 cout << "enter a number:";
 cin >> number;

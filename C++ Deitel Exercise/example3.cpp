@@ -2,9 +2,10 @@
 #include<math.h>
 using namespace std;
 int main(){
-	int deger;
-	cout<<"sayi:";
-	cin >> deger;
+	
+int deger;
+cout<<"sayi:";
+cin >> deger;
 	
 	switch (deger % 2){
 		case(0):

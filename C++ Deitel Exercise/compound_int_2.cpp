@@ -18,7 +18,7 @@ cout<< endl;
              cout<< "\t";
              compound_interest = principal * (pow (1+interest,year) );
 	     cout<< "\t"<< float(compound_interest);
-	}
+        }
      
     cout<<endl;	
     }

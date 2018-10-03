@@ -42,27 +42,28 @@ cin >> year;
 						 	 		 	    
    	  	        if (month % 2 == 0){
 						 
-					for(day = 1; day <= 30; day++){
+				for(day = 1; day <= 30; day++){
 					 	
-					 	if (month == 2 && day == 29)
-					 	break;
+				        if (month == 2 && day == 29)
+					break;
 					 	
-					 	cout << "\t" <<day;
-					 	if (day % 7 == 0)
-					 	cout << endl;
-					 }
+					cout << "\t" <<day;
+					if (day % 7 == 0)
+					cout << endl;
+			        }
 			
-				}
-			    else 
-				    for(day = 1; day <= 31; day++){
+			}
+			
+                        else 
+				for(day = 1; day <= 31; day++){
 					 	 
-					 	cout << "\t" <<day;
-					 	if (day % 7 == 0)
-					 	cout << endl;
-				    }
+					cout << "\t" <<day;
+					if (day % 7 == 0)
+					cout << endl;
+			}
    	  	        cout << endl;
 				cout << "--------------------------------------------------------------"<< endl;	   
-				} 
+		    } 
 				  
    	  	break;  
    	  	    
@@ -107,8 +108,9 @@ cin >> year;
 					 	cout << endl;
 					 }
 			
-				}
-			    else 
+			}
+			
+                        else 
 				    for(day = 1; day <= 31; day++){
 					 	 
 					 	cout << "\t" <<day;
@@ -116,8 +118,8 @@ cin >> year;
 					 	cout << endl;
 				    }
    	  	        cout << endl;
-				cout << "--------------------------------------------------------------"<< endl;	   
-				} 
+			cout << "--------------------------------------------------------------"<< endl;	   
+		   } 
 				  
    	  	break;
 
@@ -126,8 +128,8 @@ cin >> year;
    	  		cout << " invalid year ";
    	  		break;
    	  		
-		    }
-		 cout << endl;
+         }
+	 cout << endl;
          cout << "enter year  (-1 to exit):";
          cin >> year;
         }

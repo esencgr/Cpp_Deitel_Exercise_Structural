@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+
 int number,x;
 float e=0.0 , product=1.0;
 	
@@ -14,22 +15,25 @@ cout << "e^x= ";
 	        
     for (int i = 0; i <= number ; i++){
         	
-        if( i == 0)
-        product = 1;
+           if ( i == 0)
+              product = 1;
         	
-        else 
-        product = product * i;
+           else 
+              product = product * i;
             
             
         cout << "x^" << i << "/" << i << "!";
         e = e + (pow (x,i) / product);
         
-		if (i == number)
-        break;
-        else
-		cout << " + "; 
+	    if (i == number)
+               break;
+            
+            else
+	       cout << " + "; 
 			
-		}
+    }
+
 cout << "=";
 cout << float(e);
+
 }

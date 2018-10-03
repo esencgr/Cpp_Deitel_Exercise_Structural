@@ -10,6 +10,6 @@ cout << "sayilar:" << endl;
     	if (sayi > byk_sayi)
 	        byk_sayi = sayi;
 	        sayici++;
-	}
+    }
 cout<< " en buyuk sayi:" << byk_sayi;	  
 }

@@ -9,8 +9,8 @@ float anapara,faiz_orani,gun,faiz;
     	cout << "anapara(cikis-1):";
     	cin >> anapara;
         	
-    	if (anapara == -1)
-    	break;
+    	   if (anapara == -1)
+    	   break;
     		
     	cout << "faiz orani:";
     	cin >> faiz_orani;

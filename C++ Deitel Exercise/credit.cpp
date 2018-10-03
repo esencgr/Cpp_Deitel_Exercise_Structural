@@ -10,8 +10,8 @@ float ilk_bakiye,harcama,kredi,kredi_limit,son_bakiye;
 	  cout<< "hesap no(cikis -1):";
 	  cin >> hesap;
 
-		if(hesap == -1)
-		break;
+	    if(hesap == -1)
+	    break;
 		
 		cout << "ilk bakiye:";
 		cin  >> ilk_bakiye;    
@@ -30,10 +30,10 @@ float ilk_bakiye,harcama,kredi,kredi_limit,son_bakiye;
 		cout << "son_bakiye:"<< (float)son_bakiye;
 	        cout << endl;
 	    
-		if (kredi_limit < son_bakiye)
-		   cout <<"kredi limiti asildi." <<endl;
-		else 
-		   cout <<"yapilabilecek harcama tutari:" <<(float)kredi_limit-son_bakiye<<endl;
+	    if (kredi_limit < son_bakiye)
+		cout <<"kredi limiti asildi." <<endl;
+	    else 
+		cout <<"yapilabilecek harcama tutari:" <<(float)kredi_limit-son_bakiye<<endl;
 		   
 		cout <<"---------------------------------"<<endl ;
 	        cout <<endl;

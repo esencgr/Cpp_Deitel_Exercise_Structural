@@ -3,10 +3,9 @@
 using namespace std;
 int main(){
 	
-	int product=1;
+int product=1;
 	
-	while (product*=2)
-	
-	 cout << product<< endl;	
+     while (product*=2)
+	cout << product<< endl;	
 		
 }

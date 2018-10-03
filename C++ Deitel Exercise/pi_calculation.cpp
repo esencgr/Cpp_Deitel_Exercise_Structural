@@ -10,10 +10,10 @@ cout<< "term\t\t  pi" << endl ;
     
 	for (long loop=1;  loop<=accuracy;  loop++){
 		
-		if (loop % 2 != 0)
-		   pi += num/denom;
-	    else 
-	       pi -= num/denom;
+	     if (loop % 2 != 0)
+	        pi += num/denom;
+	     else 
+	        pi -= num/denom;
         
 	cout << loop << "\t"<< pi << endl;
 	denom += 2.0;

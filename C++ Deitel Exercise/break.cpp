@@ -13,6 +13,6 @@ int x;
         cout << x << ' ';
     }
 
-    cout << "\nBroke out of loop at x = " << x << endl;
-    return 0;
+cout << "\nBroke out of loop at x = " << x << endl;
+return 0;
 }
