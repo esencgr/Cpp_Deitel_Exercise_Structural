@@ -10,8 +10,14 @@ number_m = number;
 cout << endl;
 
     while (number>=1){
+<<<<<<< HEAD
       number = number/10;
 	    counter = counter + 1;
+=======
+
+	number = number/10;
+	counter = counter + 1;
+>>>>>>> 1abcd82e6ce44b8cf6f60edae022b204c3e2cdd1
     }
 cout<< "the number is include "<< counter << " digit"<<endl;
 
