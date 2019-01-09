@@ -14,19 +14,26 @@ float ilk_bakiye,harcama,kredi,kredi_limit,son_bakiye;
 	    break;
 		
 		cout << "ilk bakiye:";
-		cin  >> ilk_bakiye;    
+		cin  >> ilk_bakiye;  
+  
 		cout << "toplam harcama:";
-		cin  >> harcama;		
+		cin  >> harcama;
+		
 	        cout << "toplam kredi:";
 		cin  >> kredi;
+
 	        cout << "kredi limiti:";
 		cin  >> kredi_limit;
+
 		cout <<"----------------------------------"<<endl;
-		son_bakiye = ilk_bakiye + harcama-kredi;
+		
+                son_bakiye = ilk_bakiye + harcama-kredi;
 	        cout << "hesap no:"<< hesap;
 	        cout << endl;
+
 	        cout << "kredi limiti:"<< (float)kredi_limit;
 	        cout << endl;
+
 		cout << "son_bakiye:"<< (float)son_bakiye;
 	        cout << endl;
 	    
@@ -35,10 +42,10 @@ float ilk_bakiye,harcama,kredi,kredi_limit,son_bakiye;
 	    else 
 		cout <<"yapilabilecek harcama tutari:" <<(float)kredi_limit-son_bakiye<<endl;
 		   
-		cout <<"---------------------------------"<<endl ;
-	        cout <<endl;
+	cout <<"---------------------------------"<<endl ;
+	cout <<endl;
 		
-	}
+      }
 }
 
 
