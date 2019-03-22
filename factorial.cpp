@@ -8,11 +8,9 @@ int product=1,number,temp;
 cout << " enter a number: ";
 cin >> number ;
 temp = number;
-	while(number > 0){
-		
+	while(number > 0){	
 	    product = product * (number);
-            number--;	
-			
+            number--;			
 	}
 	
 	if (temp == 0)
